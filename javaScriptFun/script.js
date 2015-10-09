@@ -10,3 +10,18 @@ message += " We are so glad to meet you "; /** Here we are takeing the variable 
 message += visitor;
 message += ". Stop by anytime you like.";
 document.write(message);
+
+/** using upper and lowercase tags **/
+console.log("FUNNY".toLowerCase());
+console.log("hello".toUpperCase());
+
+/** Here I used a variable and changed it to all lowercase **/
+var bigword = "MISSISSIPPI";
+console.log(bigword.toLowerCase());
+
+
+/** Here I use the shout tag for some user input fun **/
+var stringToShout = prompt("What do you want to shout?");
+var shout = stringToShout.toUpperCase();
+shout += "!!!!";
+alert(shout);
